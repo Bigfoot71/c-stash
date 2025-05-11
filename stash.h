@@ -161,7 +161,7 @@ uint32_t stash_reg_get_alloc_count(const stash_reg* reg);
 
 #endif // STASH_H
 
-#ifndef STASH_IMPL
+#ifdef STASH_IMPL
 
 #include <stdlib.h>
 #include <string.h>
